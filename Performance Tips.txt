@@ -24,7 +24,7 @@ ReactJS - Performace Tips
 5. Use profiler to record the app pages. And then check and fix the app. 
 6. Use Redux Dev Tools to check how long it take for the actions.
 7. Think about optimizing back end also. 
-8. Avoid having unnecessary tags, css.
+8. Avoid having unnecessary tags, css. go with Fragment, <></>, 
 9. Don't bloat the page with too many components, 
   because will have lifecycle hooks and will have re-rendering cycles.
   If one parent comp updates, that will update child comp's till the last level.
@@ -42,9 +42,9 @@ ReactJS - Performace Tips
     <button onClick={deleteRecord} >Delete</button> 
 
 13. Use Why did you update tool
-    https://github.com/maicki/why-did-you-update 
+    https://www.npmjs.com/package/@welldone-software/why-did-you-render
 14. shouldComponentUpdate lifecycle hook
-14. Learn more performance tips.. There are aplenty.
+15. Learn more performance tips.. There are aplenty.
 
 ===
 Debugging in Production

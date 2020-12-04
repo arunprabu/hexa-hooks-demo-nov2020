@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Hooks Demo</h1>
+        <h1>Hooks Demo!</h1>
         <Switch>
           {/*  Step 2 of useContext: providing data to the home and about comps */}
           <PageContext.Provider value={userStatus}>

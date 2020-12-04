@@ -1,12 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// first test
+test('has Hooks Demo text', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Hooks Demo/i);
-  expect(linkElement).toBeInTheDocument();
+  const textElement = screen.getByText(/Hooks Demo!/i);
+  expect(textElement).toBeInTheDocument();
 });
 
-test('app is available', () => {
+test('app is rendering', ()=>{
   expect(App).toBeTruthy();
 });
